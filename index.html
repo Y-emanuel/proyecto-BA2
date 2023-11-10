@@ -15,7 +15,6 @@
   <body>
     <!-- navegador de inicio de sesion -->
     <header>
-
       <nav class="nav-i">
         <div>
           <svg
@@ -90,8 +89,8 @@
         </div>
       </nav>
       <div class="container">
-        <div class="toggle" >
-          <input type="checkbox" id="boton-oc">
+        <div class="toggle">
+          <input type="checkbox" id="boton-oc" />
           <span class="button"></span>
           <span class="label">☼</span>
         </div>
@@ -257,161 +256,21 @@
       </ul>
     </nav>
     <main>
-      <!-- <section>
-        <div class="pasajes-fondo">
-          <div class="div-p">
-            <div>
-              <ul class="ul-p">
-                <li class="li-p-active">Alojamientos</li>
-                <li><a href="#" class="li-p">Todos</a></li>
-                <li><a href="#" class="li-p">Hoteles</a></li>
-                <li><a href="#" class="li-p">Alquileres Temporarios</a></li>
-              </ul>
-            </div>
-            <form action="" class="form">
-              <div class="div-destino">
-                <label for="">destino</label>
-                <div class="div-d">
-                  <svg
-                    width="24px"
-                    height="24px"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z"
-                      stroke="#000000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12Z"
-                      stroke="#000000"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                  <input
-                    type="text"
-                    placeholder="Ingresá una ciudad, alojamiento o punto de interés"
-                    required
-                    class="inp-d"
-                  />
-                </div>
-              </div>
-              <div class="fechas-p">
-                <label for="">fechas</label>
-                <div class="fechas-s">
-                  <svg
-                    width="24px"
-                    height="24px"
-                    viewBox="0 0 1024 1024"
-                    class="icon"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M716 190.9v-67.8h-44v67.8H352v-67.8h-44v67.8H92v710h840v-710H716z m-580 44h172v69.2h44v-69.2h320v69.2h44v-69.2h172v151.3H136V234.9z m752 622H136V402.2h752v454.7z"
-                      fill="#39393A"
-                    />
-                    <path
-                      d="M319 565.7m-33 0a33 33 0 1 0 66 0 33 33 0 1 0-66 0Z"
-                      fill="#E73B37"
-                    />
-                    <path
-                      d="M510 565.7m-33 0a33 33 0 1 0 66 0 33 33 0 1 0-66 0Z"
-                      fill="#E73B37"
-                    />
-                    <path
-                      d="M701.1 565.7m-33 0a33 33 0 1 0 66 0 33 33 0 1 0-66 0Z"
-                      fill="#E73B37"
-                    />
-                    <path
-                      d="M319 693.4m-33 0a33 33 0 1 0 66 0 33 33 0 1 0-66 0Z"
-                      fill="#E73B37"
-                    />
-                    <path
-                      d="M510 693.4m-33 0a33 33 0 1 0 66 0 33 33 0 1 0-66 0Z"
-                      fill="#E73B37"
-                    />
-                    <path
-                      d="M701.1 693.4m-33 0a33 33 0 1 0 66 0 33 33 0 1 0-66 0Z"
-                      fill="#E73B37"
-                    />
-                  </svg>
-                  <div class="fechas-t">
-                    <div>
-                      <input type="date" required class="input-fecha" />
-                    </div>
-                    <div>
-                      <input type="date" required class="input-fecha" />
-                    </div>
-                  </div>
-                </div>
-                <input type="checkbox" />
-              </div>
-              <div class="habitaciones-p">
-                <label for="">Habitaciones</label>
-                <div class="habitaciones-s">
-                  <div class="habitaciones-i">
-                    <input type="number" required class="input-h" />
-                    <svg
-                      height="24px"
-                      width="24px"
-                      version="1.1"
-                      id="_x32_"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      viewBox="0 0 512 512"
-                      xml:space="preserve"
-                    >
-                      <g>
-                        <path
-                          class="st0"
-                          d="M436.212,149.261V73.629c-0.008-19.945-16.156-36.103-36.108-36.111H111.899
-      C91.948,37.526,75.8,53.685,75.792,73.629v75.632L0,339.112v113.435c0.019,12.124,9.803,21.912,21.938,21.935h468.123
-      c12.135-0.023,21.92-9.811,21.939-21.935V339.112L436.212,149.261z M99.866,73.629c0.011-6.638,5.395-12.029,12.033-12.037h288.205
-      c6.638,0.008,12.022,5.399,12.034,12.037v76.502H381.97v-28.072c-0.004-19.388-15.712-35.1-35.108-35.108h-46.307
-      c-19.396,0.008-35.097,15.72-35.104,35.108v28.072h-18.902v-28.072c-0.008-19.388-15.708-35.1-35.104-35.108h-46.307
-      c-19.396,0.008-35.104,15.72-35.108,35.108v28.072H99.866V73.629z M365.921,122.059v28.072h-84.42v-28.072
-      c0.019-10.516,8.537-19.043,19.054-19.059h46.307C357.386,103.017,365.901,111.543,365.921,122.059z M230.5,122.059v28.072h-84.42
-      v-28.072c0.019-10.516,8.534-19.043,19.059-19.059h46.307C221.961,103.017,230.48,111.543,230.5,122.059z M94.957,166.18h322.09
-      l8.714,21.833H86.242L94.957,166.18z M79.836,204.063h352.333L483.8,333.406H28.2L79.836,204.063z M487.926,450.408H24.074V349.456
-      h463.851V450.408z"
-                        />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="habitaciones-i">
-                    <input type="number" required class="input-h" />
-                    <svg
-                      width="24px"
-                      height="24px"
-                      viewBox="0 0 64 64"
-                      xmlns="http://www.w3.org/2000/svg"
-                      stroke-width="3"
-                      stroke="#000000"
-                      fill="none"
-                    >
-                      <circle cx="32" cy="18.14" r="11.14" />
-                      <path
-                        d="M54.55,56.85A22.55,22.55,0,0,0,32,34.3h0A22.55,22.55,0,0,0,9.45,56.85Z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div class="buscar">
-                <input type="submit" value="Buscar" />
-              </div>
-            </form>
-          </div>
-        </div>
-      </section> -->
-      <!-- Catalogo -->
+      <div class="icono-whatssap">
+        <button class="mod-buttom-w" id="click-boton-w">
+          <img
+            src="icon/icon-whatsapp.svg"
+            alt="icono-whatssap"
+            class="whatsapp"
+          />
+        </button>
+      </div>
+
+      <div class="whatsapp-contenedor" id="cuadro">
+        <div>02320-1414</div>
+      </div>
+      <div class="triangulo" id="triangulo-w"></div>
+
       <section>
         <div class="section-ofertas">
           <h2>DATE EL GUSTO</h2>
@@ -461,6 +320,7 @@
                 class="btn btn-primary"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
+                id="hot"
               >
                 Hoteles
               </button>
@@ -483,6 +343,7 @@
                 class="btn btn-primary"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
+                id="dep"
               >
                 Departamentos
               </button>
@@ -505,7 +366,7 @@
                 class="btn btn-primary"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
-                id="myModal"
+                id="alq"
               >
                 Alquileres
               </button>
@@ -528,43 +389,38 @@
                 class="btn btn-primary"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
+                id="act"
               >
                 Actividades
               </button>
             </div>
           </div>
         </div>
-        <div
-          class="modal fade"
-          id="exampleModal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content color-modal">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  Tu compra es ahora
-                </h1>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">Gracias por confiar en nosotros</div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Cerrar
-                </button>
-                <button type="button" class="btn btn-primary">Adquirir</button>
-              </div>
+        <div class="alerta-overlay">
+          <div class="alerta-contenedor">
+            <div class="alerta-contenido">
+              <h1>Tu compra es ahora</h1>
+            </div>
+            <div>Gracias por confiar en nosotros</div>
+            <div class="alert-botones">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                id="cerrarAlerta"
+              >
+                Cerrar
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                id="adquirir"
+              >
+                Adquirir
+              </button>
             </div>
           </div>
         </div>
