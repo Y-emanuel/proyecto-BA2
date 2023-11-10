@@ -10,7 +10,7 @@ myModal.addEventListener('shown.bs.modal', () => {
 
 const boton = document.getElementById('boton-oc');
 
-boton.addEventListener('change', () => {
+boton.addEventListener('click', () => {
   const body = document.body;
 
   if (body.style.backgroundColor === 'rgb(1, 22, 30)' || body.style.backgroundColor === '#e8e8e8') {
