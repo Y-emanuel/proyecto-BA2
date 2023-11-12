@@ -412,6 +412,8 @@ a {
     width: 315px;
     border-radius: 15px;
   }
+
+  
 }
 
 @media (max-width: 425px) {
@@ -472,6 +474,7 @@ a {
     align-items: center;
     gap: 10px;
   }
+  
 }
 
 .whatsapp {
@@ -545,14 +548,15 @@ a {
   position: fixed;
   right: 0;
   bottom: 0;
-  margin: 0 6vw 2.5vh 0;
-  border: #6a4c93 solid 2px;
+  margin: 0 115.2px 23.625px 0;
+  border: #8ac926 solid 2px;
   border-radius: 5px;
   padding: 15px;
-  background-color: #6a4c93;
+  background-color: #8ac926;
   z-index: 900;
   opacity: 0;
   transition: opacity .5s linear;
+  color: #6a4c93;
 }
 
 .triangulo {
@@ -563,11 +567,18 @@ a {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 40px solid #6a4c93;
+  border-bottom: 40px solid #8ac926;
   transform: rotate(90deg);
-  margin: 0 3.95vw 3.5vh 0;
+  margin: 0 74.688px 34.02px 0;
   z-index: 900;
   opacity: 0;
   transition: opacity .5s linear;
+}
+
+@media (max-width:419px) and (min-width:320px){
+  .section-op__divdos{
+    display: flex;
+    width: 167px;
+  }
 }
 
