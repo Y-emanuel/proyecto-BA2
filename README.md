@@ -1,7 +1,7 @@
 
 # Proyecto BA - Traveling 
 
-Traveling es un proyecto web realizado por el estudiante Emanuel Ybalo para BA Multiplica 2023, con las imágenes, colores y logos proporcionados en el respectivo kit. El código cuenta con explicaciones detalladas de todos los pasos realizados para una clara explicación al estudiante.
+Traveling es un proyecto web realizado por el estudiante Emanuel Ybalo para BA Multiplica 2023, con las imágenes, colores y logos proporcionados en el respectivo kit. El código cuenta con explicaciones detalladas de todos los pasos realizados para una clara explicación.
 
 
 ## Screenshots
